@@ -1,0 +1,31 @@
+.searchbar {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 0 16px 0 0;
+  background-color: #f1f1f1;
+  border-radius: 24px;
+  width: 204px;
+  height: 32px;
+}
+
+.searchbar__input {
+  margin: 0 5px 0 0;
+  max-width: 160px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.searchbar__button {
+  border: none;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  transition: opacity 0.15s linear 0s;
+}
+
+.searchbar__button:hover {
+  opacity: 0.7;
+}

@@ -1,0 +1,25 @@
+/* light */
+@font-face {
+  font-family: "Ubuntu Sans Mono";
+  src: url("../vendor/fonts/UbuntuSansMono-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+/* medium */
+@font-face {
+  font-family: "Ubuntu Sans Mono";
+  src: url("../vendor/fonts/UbuntuSansMono-Medium.ttf");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+/* regular */
+@font-face {
+  font-family: "Ubuntu Sans Mono";
+  src: url("../vendor/fonts/UbuntuSansMono-SemiBold.ttf");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
