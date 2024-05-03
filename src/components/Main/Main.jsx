@@ -1,10 +1,10 @@
 import "./Main.css";
 import Hero from "../Hero/Hero";
 
-const Main = () => {
+const Main = ({ skills }) => {
   return (
     <main className="content">
-      <Hero />
+      <Hero skills={skills} />
     </main>
   );
 };

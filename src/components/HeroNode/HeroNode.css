@@ -1,0 +1,15 @@
+.heronode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #12f7d6;
+  border-radius: 16px;
+  height: 24px;
+  padding: 0 16px;
+}
+
+.heronode__text {
+  text-transform: capitalize;
+  color: black;
+  font-size: 17px;
+}
