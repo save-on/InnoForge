@@ -1,0 +1,124 @@
+.sidenav {
+  position: fixed;
+  top: 200px;
+  left: 25px;
+  height: 251px;
+  width: 45px;
+  background-color: black;
+  border-radius: 100px;
+  border: 2px solid #fff;
+}
+
+.sidenav__list {
+  position: relative;
+  gap: 10px;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.sidenav__item {
+  display: flex;
+}
+
+.sidenav__button {
+  position: absolute;
+  /* left: 13px; */
+  left: 13px;
+  background: none;
+  border: none;
+  padding: 0;
+  /* background-color: #fff;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%; */
+  margin: 0 auto;
+}
+
+.sidenav__home_active {
+  top: 10px;
+  left: 6px;
+  background-color: #fff;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  color: #000;
+}
+
+.sidenav__home_inactive {
+  top: 15px;
+  left: 13px;
+  background-color: none;
+  color: #fff;
+}
+
+.sidenav__about_active {
+  top: 54px;
+  left: 6px;
+  background-color: #fff;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+}
+
+.sidenav__about_inactive {
+  top: 60px;
+  left: 13px;
+  background-color: none;
+  color: #fff;
+}
+
+.sidenav__skills_active {
+  top: 108px;
+  left: 6px;
+  background-color: #fff;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+}
+
+.sidenav__skills_inactive {
+  top: 115px;
+  left: 13px;
+  background-color: none;
+  color: #fff;
+}
+
+.sidenav__works_active {
+  bottom: 52px;
+  left: 6px;
+  background-color: #fff;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+}
+
+.sidenav__works_inactive {
+  bottom: 60px;
+  left: 13px;
+  background-color: none;
+  color: #fff;
+}
+
+.sidenav__contact_active {
+  bottom: 8px;
+  left: 6px;
+  background-color: #fff;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+}
+
+.sidenav__contact_inactive {
+  bottom: 15px;
+  left: 13px;
+  background-color: none;
+  color: #fff;
+}
+
+.sidenav__icon {
+  width: 18px;
+  height: 18px;
+}
