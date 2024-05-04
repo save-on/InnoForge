@@ -2,7 +2,9 @@
   display: flex;
   align-items: center;
   min-height: 120px;
+  max-width: 1440px;
   border-bottom: 1px solid grey;
+  margin: auto;
 }
 
 .header__logo {
