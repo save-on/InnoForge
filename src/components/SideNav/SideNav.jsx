@@ -12,7 +12,6 @@ const SideNav = ({ handleIdClick, location }) => {
   console.log(location);
   return (
     <nav className="sidenav">
-      {/* sidenav__button sidenav__(location) */}
       <ul className="sidenav__list">
         <li className="sidenav__item" id="home" onClick={handleIdClick}>
           <button
