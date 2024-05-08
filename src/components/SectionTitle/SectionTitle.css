@@ -1,0 +1,33 @@
+.sectionTitle {
+  margin: 0 auto;
+}
+
+.sectionTitle__title {
+  font-size: 43px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #12f7d6;
+  margin: 128px 0 16px;
+}
+
+.sectionTitle__underline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 16px;
+}
+
+.sectionTitle__dot {
+  background-color: #12f7d6;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+
+.sectionTitle__line {
+  background-color: #12f7d6;
+  height: 2px;
+  width: 100%;
+}

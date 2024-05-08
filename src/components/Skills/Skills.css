@@ -1,0 +1,20 @@
+.skills {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills__icon {
+  position: absolute;
+  color: #12f7d6;
+  margin: 0;
+  font-size: 112px;
+}
+
+.skills__description {
+  margin: 0 auto;
+}
+
+.skills__tab {
+  margin: 0 0 60px;
+}

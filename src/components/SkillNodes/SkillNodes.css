@@ -1,0 +1,54 @@
+.skillNodes {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 60px 0 0;
+  gap: 85px;
+}
+
+.skillNode {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  margin: 0 0 128px;
+}
+
+.skillNode:hover {
+  transform: scale(1.05);
+}
+
+.skillNode__yellow {
+  background-color: #fbbb19;
+  color: #fbbb19;
+}
+.skillNode__cyan {
+  background-color: #28a9e0;
+  color: #28a9e0;
+}
+.skillNode__green {
+  background-color: rgb(65 126 56);
+  color: rgb(65 126 56);
+}
+.skillNode__red {
+  background-color: #e54f26;
+  color: #e54f26;
+}
+
+.skillNode__icon {
+  font-size: 40px;
+  color: #fff;
+}
+
+.skillNode__text {
+  position: absolute;
+  bottom: -40px;
+  margin: 0;
+  font-size: 21px;
+  font-weight: 500;
+}

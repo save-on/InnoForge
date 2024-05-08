@@ -1,22 +1,20 @@
 export const skills = [
   {
     _id: 1,
-    text: "express",
-    icon: "",
+    text: "js",
+    color: "red",
   },
   {
     _id: 2,
     text: "node",
-    icon: "",
+    color: "#00AA57",
   },
   {
     _id: 3,
     text: "MongoDB",
-    icon: "",
   },
   {
     _id: 4,
     text: "React",
-    icon: "",
   },
 ];
